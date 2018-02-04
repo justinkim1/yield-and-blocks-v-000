@@ -3,7 +3,7 @@ def hello_t(array)
   puts array
 end
 
-hello_t(array) do |element|
-  element
-end
+# hello_t(array) do |element|
+#   element
+# end
 
