@@ -4,8 +4,9 @@ def hello_t(array)
   yield person
   }
 else
-  
+  puts "Hey! No block was given!
+end
 end
 
 
-puts "Hey! No block was given!
+
