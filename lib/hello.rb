@@ -8,5 +8,7 @@ else
 end
 end
 
-
+hello_t(names) do | name |
+  puts name
+end 
 
