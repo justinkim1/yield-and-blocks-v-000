@@ -1,6 +1,7 @@
 def hello_t(array)
-  yield(array)
-  puts array
+  array.each {|person|
+  }
+  puts person
 end
 
 # hello_t(array) do |element|
