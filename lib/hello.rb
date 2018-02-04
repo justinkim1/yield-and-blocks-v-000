@@ -1,11 +1,11 @@
 def hello_t(array)
+  if block_given?
   array.each {|person|
   yield person
   }
+else
+  
 end
 
 
-# hello_t(array) do |element|
-#   element
-# end
-
+puts "Hey! No block was given!
